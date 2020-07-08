@@ -1,0 +1,79 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 120px;
+  }
+  .role {
+      font-style: italic;
+  }
+  .cnlink {
+      font-size: 12px;
+  }
+  
+  .theme-dropdown .dropdown-menu {
+    position: static;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .theme-showcase > p > .btn {
+    margin: 5px 0;
+  }
+  
+  .theme-showcase .navbar .container {
+    width: auto;
+  }
+  .main {
+      background-color: #fefefe;
+  }
+  
+  #home {
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+  }
+  #abb,
+  #banner {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  #banner {
+    /* background: url("images/fork_bomb.png") center; */
+    background: black;
+  }
+  .list-group {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  #myCanvasContainer {
+    /* position: absolute; */
+    /* left: 0; */
+      /* margin: auto; */
+      /* height:50vh; */
+      /* width: 100vw; */
+      /* padding: 10px; */
+      /* background: black; */
+  }
+  #myCanvas {
+    /* margin-left: 10%;
+    margin-right: 10%; */
+  }
+  
+  #abb {
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    color: #fff;
+    font-size: 32pt;
+    font-family: "Raleway-semibold";
+    z-index: 10;
+    /* text-shadow:1px 1px 5px #bcfaca, 1px 1px 5px #fff; */
+  }
+  .text-highlight {
+    color: #99edc3; // mint
+  }
+  
